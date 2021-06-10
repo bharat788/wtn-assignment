@@ -1,0 +1,11 @@
+package CommandLine;
+import java.util.Scanner;
+public class Welcome {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String str1=sc.next();
+		
+		System.out.println("Welcome "+str1);
+		sc.close();
+	}
+}
